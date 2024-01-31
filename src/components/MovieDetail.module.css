@@ -1,0 +1,52 @@
+.movie__title{
+  text-decoration: none;
+}
+.movie__title a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.movie__img {
+  max-width: 350px;
+  width: 100%;
+  margin-right: 30px;
+}
+
+.movie__container{
+  text-align: left;
+}
+
+.movie__genres{
+  margin-bottom: 3px;
+}
+
+.movie__year{
+  margin-bottom: 5px;
+}
+
+.movie__link a {
+  text-decoration: none;
+  color: white;
+  background-color: #6AC045;
+  border:1px solid #6AC045;
+  border-radius: 15px;
+  border-color: #6AC045;
+  padding: 2px;
+}
+
+span{
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+h4{
+  margin: 5px 0 0 0;
+}
+ul{
+  margin: 0;
+}
+hr{
+  margin-top: 0;
+  border-color: #6AC045;
+}
