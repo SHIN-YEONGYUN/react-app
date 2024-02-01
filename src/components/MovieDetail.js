@@ -12,20 +12,20 @@ function MovieDetail({ title, like, year, runtime, src, description, genres, url
 
             <img src={src} alt={title} className={styles.movie__img} />
             <div className={styles.movie__container}>
-                <h4>description</h4>
+                {/* <h4>description</h4> */}
                 <p> {description}</p>
 
-                <h4 className={styles.movie__year}>year : {year} </h4>
-                <span className={styles.movie__rating} >rating : {rating}</span>
+                <h2 className={styles.movie__year}>{year} </h2>
+                <span className={styles.movie__rating}>{rating}</span><span className={styles.movie__rating2}>/10</span>
                 <span className={styles.movie__like}>like : {like}</span>
-                <h4>runtime : {runtime} </h4>
+                <h4>{runtime} min</h4>
                 <div>
-                    <h4>genres</h4>
-                    <ul>
+                
+                    <span>
                         {genres.map((genre, index) => (
                             <li className={styles.movie__genres} key={index}>{genre}</li>
                         ))}
-                    </ul>
+                    </span>
                 </div>
             </div>
             <br />

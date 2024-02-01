@@ -8,9 +8,10 @@
 }
 
 .movie__img {
-  max-width: 350px;
+  max-width: 300px;
   width: 100%;
   margin-right: 30px;
+  border-radius: 3px;
 }
 
 .movie__container{
@@ -25,6 +26,17 @@
   margin-bottom: 5px;
 }
 
+.movie__rating{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.movie__rating2{
+  font-size: 14px;
+  color: gray;
+  margin-right: 10px;
+}
+
 .movie__link a {
   text-decoration: none;
   color: white;
@@ -35,17 +47,10 @@
   padding: 2px;
 }
 
-span{
-  margin-right: 5px;
-  font-weight: bold;
-}
-
 h4{
   margin: 5px 0 0 0;
 }
-ul{
-  margin: 0;
-}
+
 hr{
   margin-top: 0;
   border-color: #6AC045;
